@@ -5,7 +5,7 @@ import openai
 app = Flask(__name__, static_url_path='/static', static_folder='static')
 
 
-openai.api_key = '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'
+openai.api_key = ''
 
 # Ruta para cargar la página principal (index.html)
 @app.route('/')
